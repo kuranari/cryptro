@@ -1,0 +1,18 @@
+### https://raw.github.com/github/gitignore/77e8071b0fd93b44143a03b1c55882512036ae7e/node.gitignore
+
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+npm-debug.log
+node_modules
+
