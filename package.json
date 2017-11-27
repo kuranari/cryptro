@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "fs-extra": "^4.0.2",
+    "js-yaml": "^3.10.0",
+    "minimist": "^1.2.0",
+    "tmp": "^0.0.33"
+  },
+  "name": "js-secrets",
+  "version": "0.0.1",
+  "main": "lib/js-secrets.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "js-secrets": "./bin/cli.js"
+  },
+  "author": "Tomohisa Kuranari",
+  "license": "ISC",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuranari/js-secrets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kuranari/js-secrets/issues"
+  },
+  "homepage": "https://github.com/kuranari/js-secrets#readme",
+  "description": ""
+}
