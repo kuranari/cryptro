@@ -1,6 +1,17 @@
 ## js-secrets
 ```
-git clone git@github.com:kuranari/js-secrets.git
+$ npm install -g js-secrets
 
-npm install -g js-secrets
+$ js-secrets setup
+created: .secrets.key
+created: secrets.yml.enc
+
+$ js-secrets read
+awsomeValue: 42
+
+$ echo 'hello: world' | js-secrets write
+$ js-secrets read
+hello: world
+
+$ EDITOR=vi js-secrets edit
 ```
