@@ -51,7 +51,7 @@ switch(subcommand) {
       fs.writeFileSync(file, "", { flag: 'wx' })
 
       const key = fetchKey({ path: keyFilePath });
-      write(file, 'awsomeValue: 42', key);
+      write(file, 'awesomeValue: 42', key);
       console.log(`created: ${file}`);
     } catch (err) {
       if (err.code !== 'EEXIST') { throw err }

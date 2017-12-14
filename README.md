@@ -7,7 +7,7 @@ created: .secrets.key
 created: secrets.yml.enc
 
 $ js-secrets read
-awsomeValue: 42
+awesomeValue: 42
 
 $ echo 'hello: world' | js-secrets write
 $ js-secrets read
